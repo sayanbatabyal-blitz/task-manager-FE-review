@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    margin-top: 70px;
+    span{
+        font-size: xx-large;
+         
+    }
+    .link{
+        &:hover{
+            text-decoration:none;
+        }
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 8px;
+        font-size: medium;
+        padding:0.5rem 0.75rem;
+        background: #008c4f;
+    }
+}

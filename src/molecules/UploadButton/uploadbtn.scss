@@ -1,0 +1,12 @@
+#btn{
+    padding: 4px 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px lightgray;
+    box-shadow: 2px 4px 10px 1px lightgray;
+    font-weight: bold;
+    background-color :  rgba(7, 166, 251, 0.292);
+    border-radius: 4px;
+    &:hover{
+    background-color:  rgba(7, 166, 251, 0.492);
+    }
+    
+}

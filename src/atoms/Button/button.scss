@@ -1,0 +1,24 @@
+.buttonSubmit{  
+    padding: 10px 20px;
+    -webkit-box-shadow: 2px 4px 10px 1px lightgray;
+    box-shadow: 2px 4px 10px 1px lightgray;
+    font-weight: bold;
+    font-size: larger;
+    background:  rgba(7, 166, 251, 0.292);
+    border-radius: 4px;
+    &:hover{
+    background:  rgba(7, 166, 251, 0.492);
+    }
+}
+
+.modifybtn{
+    padding: 5px 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px lightgray;
+    box-shadow: 2px 4px 10px 1px lightgray;
+    font-weight: bold;
+    background:  rgba(234, 255, 0, 0.871);
+    border-radius: 4px;
+    &:hover{
+    background:  rgba(251, 243, 7, 0.492);
+    }
+}

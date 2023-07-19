@@ -1,57 +1,57 @@
-.navbar{
-    width: 100%;
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px 70px;
+  justify-content: space-between;
+  .btn-stack {
     display: flex;
+    gap: 10px;
     align-items: center;
-    padding: 8px 70px;
-    justify-content: space-between;
-    .btn-stack{
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        justify-items: center;
-    }
-    .header{
-      .link{
+    justify-items: center;
+  }
+  .header {
+    .link {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: white;
+      text-align: center;
+      &:hover {
         text-decoration: none;
-        padding: 12px 20px;
-        border-radius: 10px;
-        background:  #3B82F6; ;
-        color: white;
-        text-align: center;
-        &:hover{
-            text-decoration: none;
+      }
+      font-size: xx-large;
+    }
+  }
+  .navmenu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    .upload {
+      display: flex;
+    }
+    .navitms {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 4px 20px;
+      border-radius: 4px;
+      -webkit-box-shadow: 2px 4px 10px 1px lightgray;
+      box-shadow: 2px 4px 10px 1px lightgray;
+      background: rgba(7, 166, 251, 0.292);
+      .link {
+        text-decoration: none;
+        &:hover &:focus {
+          text-decoration: none;
         }
-        font-size: xx-large;
+        color: black;
+        font-weight: bold;
+      }
+      &:hover {
+        background: rgba(7, 166, 251, 0.492);
+        transition: ease-in-out;
       }
     }
-    .navmenu{
-        list-style: none;
-        display: flex;
-        gap: 10px;
-        .upload{
-             display: flex;
-        }
-        .navitms{
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            padding: 4px 20px;
-            border-radius: 4px;
-            -webkit-box-shadow: 2px 4px 10px 1px lightgray;
-            box-shadow: 2px 4px 10px 1px lightgray;
-            background :  rgba(7, 166, 251, 0.292);
-            .link{
-                text-decoration: none;
-                &:hover &:focus{
-                    text-decoration: none;
-                }
-                color: black;
-                font-weight: bold;
-            } 
-            &:hover{
-                background: rgba(7, 166, 251, 0.492);
-                transition: ease-in-out;
-            }
-        }
-    }
+  }
 }

@@ -1,9 +1,7 @@
-import { Loader } from "rsuite"
+import { Loader } from "rsuite";
 
-const Load = ({content}:{content:string}) => {
-  return (
-    <Loader size='lg' content={content}></Loader>
-  )
-}
+const Load = ({ content }: { content: string }) => {
+  return <Loader size="lg" content={content}></Loader>;
+};
 
-export default Load
+export default Load;

@@ -1,0 +1,18 @@
+.taskContainer{
+    margin-top: 3rem;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.pagination{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}

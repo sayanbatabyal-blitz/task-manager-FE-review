@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;        
+width: 100%;
+min-height: 97vh;    
+background: linear-gradient(93deg, rgba(255,255,255,1) 0%, rgba(127,198,255,0.1) 100%);
+
+.pages{
+    flex:5
+}
+
+}
